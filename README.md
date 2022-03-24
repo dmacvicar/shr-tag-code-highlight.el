@@ -5,7 +5,7 @@
 
 `shr-tag-code-highlight` is a tag render extension (external render function) for the shr emacs HTML engine, which adds syntax highlighting to `code`` blocks.
 
-The main target is to highlight `markdown-live-preview-mode` GRM code fences as converted by [pandoc](https://pandoc.org/).
+The main target is to highlight `markdown-live-preview-mode` GFM code fences as converted by [pandoc](https://pandoc.org/) when viewed in [eww](https://www.gnu.org/software/emacs/manual/html_mono/eww.html).
 
 It is based on the example provided Andreas Jansson's [language-detection.el](https://github.com/andreasjansson/language-detection.el) README and inspired by Chunyang Xu's [shr-tag-pre-highlight.el](https://github.com/xuchunyang/shr-tag-pre-highlight.el), with some differences:
 
